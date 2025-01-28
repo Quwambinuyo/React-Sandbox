@@ -4,6 +4,8 @@ import UseRefExample2 from "./component/useRefExample2";
 import UseRefExample3 from "./component/useRefExample3";
 import UseMemoExample from "./component/UseMemoExample";
 import UseCallbackExample from "./component/UseCallbackExample";
+import CustomHookExample1 from "./component/CustomHookExample1";
+CustomHookExample1;
 
 const App = () => {
   return (
@@ -13,6 +15,7 @@ const App = () => {
       <UseRefExample3 />
       <UseMemoExample />
       <UseCallbackExample />
+      <CustomHookExample1 />
     </div>
   );
 };
