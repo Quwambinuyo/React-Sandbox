@@ -31,9 +31,9 @@ function CustomHookExample1() {
     <div>
       {data.map((post) => (
         // Display the title of each post with a unique key
-        <h3 className="text-4xl" key={post.id}>
+        <p className="" key={post.id}>
           {post.title}
-        </h3>
+        </p>
       ))}
     </div>
   );

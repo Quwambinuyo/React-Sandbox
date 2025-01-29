@@ -6,6 +6,7 @@ import UseMemoExample from "./component/UseMemoExample";
 import UseCallbackExample from "./component/UseCallbackExample";
 import CustomHookExample1 from "./component/CustomHookExample1";
 CustomHookExample1;
+import CustomHookExample2 from "./component/CustomHookExample2";
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
       <UseMemoExample />
       <UseCallbackExample />
       <CustomHookExample1 />
+      <CustomHookExample2 />
     </div>
   );
 };
